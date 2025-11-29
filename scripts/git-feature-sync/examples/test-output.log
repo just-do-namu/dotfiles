@@ -1,0 +1,43 @@
+📂 Working Directory: /Users/dowon/Desktop/test/git-sync-test
+🔍 Detected Feature Branches:
+feature/cart
+feature/conflict
+feature/login
+feature/payment
+
+🔀 Merging main into -> feature/cart
+Switched to branch 'feature/cart'
+Updating a5c8657..6070144
+Fast-forward (no commit created; -m option ignored)
+ file.txt | 1 +
+ 1 file changed, 1 insertion(+)
+✅ Success: feature/cart
+
+🔀 Merging main into -> feature/conflict
+Switched to branch 'feature/conflict'
+Auto-merging file.txt
+CONFLICT (content): Merge conflict in file.txt
+Automatic merge failed; fix conflicts and then commit the result.
+⚠️ Conflict: feature/conflict (Skipping...)
+
+🔀 Merging main into -> feature/login
+Switched to branch 'feature/login'
+Updating a5c8657..6070144
+Fast-forward (no commit created; -m option ignored)
+ file.txt | 1 +
+ 1 file changed, 1 insertion(+)
+✅ Success: feature/login
+
+🔀 Merging main into -> feature/payment
+Switched to branch 'feature/payment'
+Updating a5c8657..6070144
+Fast-forward (no commit created; -m option ignored)
+ file.txt | 1 +
+ 1 file changed, 1 insertion(+)
+✅ Success: feature/payment
+
+==============================
+📝 Summary
+✅ Merged: feature/cart feature/login feature/payment
+🚨 Failed: feature/conflict
+==============================

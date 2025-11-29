@@ -1,0 +1,14 @@
+2024-11-30 14:00:01.123 [INFO] Thread-Main Start Application
+2024-11-30 14:00:02.005 [INFO] TRCODE:LGN1001 MSG:User Login Request DATA:{"userId":"dowon", "device":"Android", "appVer":"2.5.0"}
+2024-11-30 14:00:02.150 [INFO] TRCODE:LGN1002 MSG:User Login Success DATA:{"userId":"dowon", "token":"eyJhbGciOi..."}
+2024-11-30 14:00:05.500 [DEBUG] Just simple debug log without code...
+2024-11-30 14:00:10.200 [INFO] TRCODE:SRC2001 MSG:Search Items DATA:{"keyword":"sunscreen", "filter":"rank"}
+2024-11-30 14:00:10.890 [INFO] TRCODE:SRC2002 MSG:Search Result DATA:{"count":150, "took":50}
+2024-11-30 14:01:20.100 [WARN] Network unstable... connection retry 1
+2024-11-30 14:01:22.000 [INFO] TRCODE:CRT3001 MSG:Add To Cart DATA:{"itemId":"ITM_5512", "qty":2, "price":15000}
+2024-11-30 14:05:00.001 [INFO] TRCODE:ORD4001 MSG:Order Init DATA:{"cartId":999, "totalPrice":30000, "coupon":null}
+2024-11-30 14:05:01.200 [INFO] TRCODE:PAY5001 MSG:Payment Request PG DATA:{"pg":"TOSS", "method":"CARD", "amount":30000}
+2024-11-30 14:05:02.500 [ERROR] TRCODE:ERR9001 MSG:Payment Gateway Timeout DATA:{"pgCode":"504", "error":"Gateway Timeout"}
+2024-11-30 14:05:05.000 [INFO] TRCODE:PAY5002 MSG:Payment Retry DATA:{"retryCount":1, "orderId":"ORD_20241130_001"}
+2024-11-30 14:05:06.100 [INFO] TRCODE:PAY5003 MSG:Payment Success DATA:{"tid":"toss_12345", "approvedAt":"2024-11-30 14:05:06"}
+2024-11-30 14:10:00.000 [INFO] System shutdown.

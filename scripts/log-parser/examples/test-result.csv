@@ -1,0 +1,11 @@
+id,ts,code,data
+1,2024-11-30 14:00:02,LGN1001,"{""userId"":""dowon"", ""device"":""Android"", ""appVer"":""2.5.0""}"
+2,2024-11-30 14:00:02,LGN1002,"{""userId"":""dowon"", ""token"":""eyJhbGciOi...""}"
+3,2024-11-30 14:00:10,SRC2001,"{""keyword"":""sunscreen"", ""filter"":""rank""}"
+4,2024-11-30 14:00:11,SRC2002,"{""count"":150, ""took"":50}"
+5,2024-11-30 14:01:22,CRT3001,"{""itemId"":""ITM_5512"", ""qty"":2, ""price"":15000}"
+6,2024-11-30 14:05:00,ORD4001,"{""cartId"":999, ""totalPrice"":30000, ""coupon"":null}"
+7,2024-11-30 14:05:01,PAY5001,"{""pg"":""TOSS"", ""method"":""CARD"", ""amount"":30000}"
+8,2024-11-30 14:05:03,ERR9001,"{""pgCode"":""504"", ""error"":""Gateway Timeout""}"
+9,2024-11-30 14:05:05,PAY5002,"{""retryCount"":1, ""orderId"":""ORD_20241130_001""}"
+10,2024-11-30 14:05:06,PAY5003,"{""tid"":""toss_12345"", ""approvedAt"":""2024-11-30 14:05:06""}"
